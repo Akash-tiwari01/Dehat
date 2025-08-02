@@ -1,0 +1,118 @@
+
+Header{
+    display: flex;
+    justify-content: space-around;
+    position: relative !important;
+    z-index: 0 !important;
+  }
+
+.nav-link{
+    color:black !important;
+}
+
+
+.nav-link:hover{
+    color:#4CAF50 !important;
+    text-decoration: underline !important;
+}
+.aboutarea{
+
+}
+
+.aboutarea_5_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+
+.aboutarea_5_img img{
+    max-width: 350px;
+}
+.aboutarea_card{
+    padding: 5%;
+    /* background-color:rgb(202, 162, 162); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutarea_card_img{
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 200px;
+    background-size: cover;
+}
+
+.aboutarea_card_img img{
+    width: 300px;
+}
+.aboutarea_card_title{
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: #444;
+    margin-bottom: 0.3em;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.aboutarea_card_discription{
+    text-align: justify;
+}
+
+/* about area tab section */
+
+.about_area_nav_buttons{
+    display: flex;
+    align-items: center;
+    border: 1px solid #cccccc;
+    border-radius: 12px;
+    overflow: hidden;
+    min-width: 500px;
+    max-width: 600px;
+    margin: .5rem auto;
+    text-align: center;
+    
+}
+
+.about_area_nav_buttons button{
+    border:none;
+    border-right-width: 1px;
+    border-right-color: #cccccc;
+    flex: 1;
+    padding: 1rem;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+    font-weight: 600;
+    
+    
+}
+
+.about_area_nav_buttons .active{
+background-color:#4CAF50;
+color:white;
+}
+
+.divider {
+    width: 1px;
+    background-color: #ccc;
+    height: 80%;
+  }
+
+
+
+.aboutarea_tab_image img
+{
+    width: 90%;
+
+}
