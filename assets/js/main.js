@@ -25,7 +25,7 @@
   window.addEventListener("load", function () {
     const loader = document.getElementById("preloader");
     const content = document.getElementById("main-content");
-
+    console.log(content);
     loader.style.display = "none";
     content.style.display = "block";
   });

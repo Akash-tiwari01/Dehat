@@ -15,9 +15,9 @@
 </head>
 <body>
 
-<main class="main_wrapper">
+<main class="wrapper">
     <?php include 'header2.php'?>
-        <section class="aboutarea pt-4 pb-4">
+        <section class="aboutarea odd pt-4 pb-4">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6">
@@ -38,7 +38,7 @@
             </div>
         </section>
 
-        <section class="aboutarea pt-4 pb-4">
+        <section class="aboutarea even pt-4 pb-4">
             <div class="container">
                 <h3 class="heading_xl text-center text-capitalize">Our Values</h3>
                 <div class="heading_md text-center text-capitalize">Strengthening Our Roots | Nurturing Our Drive | Harvesting Our True Purpose</div>
@@ -55,7 +55,7 @@
                     <div class="col-xl-3 col-lg-3 col-md-6 p-5">
                         <div class="aboutarea_card">
                             <div class="aboutarea_card_img">
-                                <img src="assets/images/icons/agricultureInovation.png" alt="">
+                                <img src="assets/images/icons/intigrity.webp" alt="">
                             </div>
                             <h1 class="aboutarea_card_title">Integrity & Responsibility</h1>
                             <p class="aboutarea_card_discription">We uphold the highest ethical standards in all operations. As stewards of the environment, we prioritize the health and safety of our employees, communities, and the farming ecosystem.</p>
@@ -64,7 +64,7 @@
                     <div class="col-xl-3 col-lg-3 col-md-6 p-5">
                         <div class="aboutarea_card">
                             <div class="aboutarea_card_img">
-                                <img src="assets/images/icons/agricultureInovation.png" alt="">
+                                <img src="assets/images/icons/8e.png" alt="">
                             </div>
                             <h1 class="aboutarea_card_title">Efficiency & Competitiveness</h1>
                             <p class="aboutarea_card_discription">We deliver compelling value through quality products and cost-efficient solutions. Continuous improvement drives our processes, ensuring sustainable agricultural advancements.</p>
@@ -83,16 +83,16 @@
             </div>
         </section>
 
-        <section class="aboutarea pb-4 pt-4">
-            <div class="container">
+        <section class="aboutarea odd  pb-4 pt-4">
+            <div class="container aboutarea_nav_tabs">
                 <div class="row mb-4">
                     <div class=" d-flex justify-content-center gap-3">
                         <div class="about_area_nav_buttons">
-                        <button class="aboutarea-nav-btn active" data-target="tab1">Home</button>
-                        <div class="divider"></div>
-                        <button class="aboutarea-nav-btn" data-target="tab2">Profile</button>
-                        <div class="divider"></div>
-                        <button class="aboutarea-nav-btn" data-target="tab3">Contact</button>
+                            <button class="aboutarea-nav-btn active" data-target="tab1">Home</button>
+                            <div class="divider"></div>
+                            <button class="aboutarea-nav-btn" data-target="tab2">Profile</button>
+                            <div class="divider"></div>
+                            <button class="aboutarea-nav-btn" data-target="tab3">Contact</button>
                         </div>
                     </div>
                 </div>
@@ -108,18 +108,19 @@
                                     <div class="aboutarea_tab_content ">
                                         <ul>
                                             <li>
-                                                <h3 class="text_wrapper_list_title">Mutual Respect</h3>
-                                                <p class="text_wrapper_list_item">We believe in the power of mutual respect to maintain an honest, transparent and meaningful relationship with our stakeholders.</p>
+                                                <h3 class="text_wrapper_list_title">Integrity & Responsibility</h3>
+                                                <p class="text_wrapper_list_item">We are committed to ethical business practices and environmental care in every decision we make.</p>
                                             </li>
                                             <li>
-                                                <h3 class="text_wrapper_list_title">Practice Integrity, Drive Accountability</h3>
-                                                <p class="text_wrapper_list_item">We practice integrity, drive accountability and ownership to achieve our common goals and maximize employee potential.</p>
+                                                <h3 class="text_wrapper_list_title">Efficiency & Competitiveness</h3>
+                                                <p class="text_wrapper_list_item">We strive for excellence by delivering quality solutions that are both cost-effective and farmer-focused.</p>
                                             </li>
                                             <li>
-                                                <h3 class="text_wrapper_list_title">Diverse, Equitable & Inclusive Culture</h3>
-                                                <p class="text_wrapper_list_item">We embrace diversity across cultural background, race, religion, caste, gender, opinions, & views as the core of our culture</p>
+                                                <h3 class="text_wrapper_list_title">Teamwork & Persistence</h3>
+                                                <p class="text_wrapper_list_item">We believe in growing together—embracing challenges, learning continuously, and working towards shared success.</p>
                                             </li>
                                         </ul>
+
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-12">
@@ -192,9 +193,114 @@
                 </div>
                 </div>
             </div>
+            <div class="container aboutarea_accordian">
+                <div class="row">
+                    <div class="col d-flex justify-content-around">
+                        <div class="about_accordian_container">
+                            <div class="container">
+                                <div class="row mb-3">
+                                    <div class="col-lg-12 accordian_button active" data-target="accordianTab1">
+                                        Home<span >+</span><span class="hide">-</span>
+                                    </div>
+                                    <div class="col-lg-12 accordian_content" id="accordianTab1">
+                                        <div class="row">
+                                            <div class="col-xl-6 col-lg-6 col-md-12 d-flex align-items-center">
+                                                <div class="aboutarea_accordian_content ">
+                                                    <ul>
+                                                        <li>
+                                                            <h3 class="text_wrapper_list_title">Integrity & Responsibility</h3>
+                                                            <p class="text_wrapper_list_item">We are committed to ethical business practices and environmental care in every decision we make.</p>
+                                                        </li>
+                                                        <li>
+                                                            <h3 class="text_wrapper_list_title">Efficiency & Competitiveness</h3>
+                                                            <p class="text_wrapper_list_item">We strive for excellence by delivering quality solutions that are both cost-effective and farmer-focused.</p>
+                                                        </li>
+                                                        <li>
+                                                            <h3 class="text_wrapper_list_title">Teamwork & Persistence</h3>
+                                                            <p class="text_wrapper_list_item">We believe in growing together—embracing challenges, learning continuously, and working towards shared success.</p>
+                                                        </li>
+                                                    </ul>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-12">
+                                                <div class="aboutarea_accordian_image">
+                                                    <img src="assets/images/about-us/respect.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-lg-12 accordian_button" data-target="accordianTab2">
+                                        Home<span>+</span><span class="hide">-</span>
+                                    </div>
+                                    <div class="col-lg-12 accordian_content" id="accordianTab2">
+                                        <div class="row">
+                                            <div class="col-xl-6 col-lg-6 col-md-12 d-flex align-items-center">
+                                                <div class="aboutarea_accordian_content ">
+                                                    <ul>
+                                                        <li>
+                                                            <h3 class="text_wrapper_list_title">Mutual Respect</h3>
+                                                            <p class="text_wrapper_list_item">We believe in the power of mutual respect to maintain an honest, transparent and meaningful relationship with our stakeholders.</p>
+                                                        </li>
+                                                        <li>
+                                                            <h3 class="text_wrapper_list_title">Practice Integrity, Drive Accountability</h3>
+                                                            <p class="text_wrapper_list_item">We practice integrity, drive accountability and ownership to achieve our common goals and maximize employee potential.</p>
+                                                        </li>
+                                                        <li>
+                                                            <h3 class="text_wrapper_list_title">Diverse, Equitable & Inclusive Culture</h3>
+                                                            <p class="text_wrapper_list_item">We embrace diversity across cultural background, race, religion, caste, gender, opinions, & views as the core of our culture</p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-12">
+                                                <div class="aboutarea_accordian_image">
+                                                    <img src="assets/images/about-us/respect.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12 accordian_button" data-target="accordianTab3">
+                                        Home<span class="">+</span><span class="hide">-</span>
+                                    </div>
+                                    <div class="col-lg-12 accordian_content mt-3" id="accordianTab3">
+                                        <div class="row">
+                                            <div class="col-xl-6 col-lg-6 col-md-12 d-flex align-items-center">
+                                                <div class="aboutarea_accordian_content ">
+                                                    <ul>
+                                                        <li>
+                                                            <h3 class="text_wrapper_list_title">Mutual Respect</h3>
+                                                            <p class="text_wrapper_list_item">We believe in the power of mutual respect to maintain an honest, transparent and meaningful relationship with our stakeholders.</p>
+                                                        </li>
+                                                        <li>
+                                                            <h3 class="text_wrapper_list_title">Practice Integrity, Drive Accountability</h3>
+                                                            <p class="text_wrapper_list_item">We practice integrity, drive accountability and ownership to achieve our common goals and maximize employee potential.</p>
+                                                        </li>
+                                                        <li>
+                                                            <h3 class="text_wrapper_list_title">Diverse, Equitable & Inclusive Culture</h3>
+                                                            <p class="text_wrapper_list_item">We embrace diversity across cultural background, race, religion, caste, gender, opinions, & views as the core of our culture</p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-12">
+                                                <div class="aboutarea_accordian_image">
+                                                    <img src="assets/images/about-us/respect.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-
-
 
 
     <?php include 'footer.php'?>

@@ -38,7 +38,7 @@
                             </div>
 
                         </div>
-                        <div class="row">
+                        <div class="row mt-lg-5">
                             <div class="col-lg-6 col-xl-6 col-md-12">
                                 <div class="contact_info-item mb-3 d-flex">
                                     <span class="contact_info-icon"><i class="bi bi-geo-alt-fill"></i></span>
@@ -58,7 +58,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row mt-lg-5">
                             <div class="col-lg-6 col-xl-6 col-md-12">
                                 <div class="contact_info-item mb-3 d-flex">
                                 <span class="contact_info-icon"><i class="bi bi-envelope-at"></i></span>
@@ -90,7 +90,7 @@
             </div>
 
             <!-- Right Form Column -->
-            <div class="col-md-6">
+            <div class="col-md-6" id="contactForm">
                 <div class="contact_form p-4 border rounded shadow-sm">
                 <h4 class="mb-3">Fill Up The Form</h4>
                 <p class="text-muted small">Your Email Address Will Not Be Published. Required Fields Are Marked *</p>

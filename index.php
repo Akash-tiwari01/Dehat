@@ -29,37 +29,38 @@
                 <div class="carousel-item active overlay" style="background-image: url('assets/images/banner1.webp'); ">
                     <div class=" container-fluid banner-content row justify-content-center">
                         <div class="col col-md-12 col-lg-6" >
-                            <h6 class="text-primary ">Building Technologies for the next Agri-Revolution</h6>
-                            <h1 class="display-4 fw-bold">Seeds To Market</h1>
+                            <h6 class="text-primary ">Empowering Farmers Through Innovation and Sustainability</h6>
+                            <h1 class="display-4 fw-bold">From Soil to Success</h1>
                             <div class="banner-buttons">
-                                <button class="btn btn-success">Know Your soil</button>
-                                <button class="btn btn-success">Agri Input</button>
-                                <button class="btn btn-success">Advisory</button>
-                                <button class="btn btn-success">Health & Growth</button>
-                                <button class="btn btn-success">Agri Output</button>
+                                <button class="btn btn-success">Crop Protection</button>
+                                <button class="btn btn-success">Equipment Rental</button>
+                                <button class="btn btn-success">Agri Advisory</button>
+                                <button class="btn btn-success">Plant Growth</button>
+                                <button class="btn btn-success">Bulk Supply</button>
                                 <button class="btn btn-success">Farm Intelligence</button>
-                                <button class="btn btn-success">Finance</button>
+                                <button class="btn btn-success">Distributorship</button>
                             </div>
                         </div>
                     </div>
+
                 </div>
                 <div class="carousel-item overlay" style="background-image: url('assets/images/banner2.webp');">
                     <div class="banner-content container-fluid row justify-content-center d-flex">
                         <div class="col col-md-12 col-lg-12" >
-                                <h6 class="text-primary ">Building Technologies for the next Agri-Revolution</h6>
-                                <h1 class="display-4 fw-bold">Seeds To Market</h1>
-                                <div class="banner-partners">
-                                    <div class="banner-partner"><img src="assets/images/logo.png" alt=""></div>
-                                    <div class="banner-partner"><img src="assets/images/logo.png" alt=""></div>
-                                    <div class="banner-partner"><img src="assets/images/logo.png" alt=""></div>
-                                    <div class="banner-partner"><img src="assets/images/logo.png" alt=""></div>
-                                    <div class="banner-partner"><img src="assets/images/logo.png" alt=""></div>
-                                    <div class="banner-partner"><img src="assets/images/logo.png" alt=""></div>
-                                    <div class="banner-partner"><img src="assets/images/logo.png" alt=""></div>
-                                    <div class="banner-partner"><img src="assets/images/logo.png" alt=""></div>
-
-                                </div>
+                            <h6 class="text-primary ">Driving Sustainable Growth in Indian Agriculture</h6>
+                            <h1 class="display-4 fw-bold">Innovation. Access. Impact.</h1>
+                            <div class="banner-partners">
+                                <div class="banner-partner"><img src="assets/images/logo.png" alt="Partner 1 Logo"></div>
+                                <div class="banner-partner"><img src="assets/images/logo.png" alt="Partner 2 Logo"></div>
+                                <div class="banner-partner"><img src="assets/images/logo.png" alt="Partner 3 Logo"></div>
+                                <div class="banner-partner"><img src="assets/images/logo.png" alt="Partner 4 Logo"></div>
+                                <div class="banner-partner"><img src="assets/images/logo.png" alt="Partner 5 Logo"></div>
+                                <div class="banner-partner"><img src="assets/images/logo.png" alt="Partner 6 Logo"></div>
+                                <div class="banner-partner"><img src="assets/images/logo.png" alt="Partner 7 Logo"></div>
+                                <div class="banner-partner"><img src="assets/images/logo.png" alt="Partner 8 Logo"></div>
                             </div>
+                        </div>
+
                     </div>
                 </div>
                 <div class="carousel-item overlay" style="background-image: url('assets/images/banner1.webp'); ">
