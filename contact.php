@@ -14,6 +14,17 @@
   <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Lato&display=swap" rel="stylesheet">
 </head>
 <body>
+
+<?php
+    if(isset($_GET['status']) && $_GET['status']==='success')
+        {   
+            echo "<script>alert('Form Submit successfully')</script>";
+        }
+        elseif(isset($_GET['status']) && $_GET['status']==='false')
+        {
+            echo "<script>alert('There has been some error please retry after some time')</script>";
+        }
+?>
 <Main class="wrapper">
         <!-- header section -->
         <?php include 'header2.php'?>
@@ -94,25 +105,25 @@
                 <div class="contact_form p-4 border rounded shadow-sm">
                 <h4 class="mb-3">Fill Up The Form</h4>
                 <p class="text-muted small">Your Email Address Will Not Be Published. Required Fields Are Marked *</p>
-                <form class="needs-validation" novalidate>
+                <form action="form.php" method="POST" class="needs-validation" novalidate>
                     <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Enter Name" required />
+                    <input type="text" class="form-control" placeholder="Enter Name" name='name' required />
                     <div class="invalid-feedback">Please enter your name.</div>
                     </div>
                     <div class="mb-3">
-                    <input type="email" class="form-control" placeholder="Enter Email" required />
+                    <input type="email" class="form-control" placeholder="Enter Email" name="email" required />
                     <div class="invalid-feedback">Please enter a valid email.</div>
                     </div>
                     <div class="mb-3">
-                    <input type="tel" class="form-control" placeholder="Phone Number" required pattern="[0-9+ -]+" />
+                    <input type="tel" class="form-control" placeholder="Phone Number" name="phoneNo" required pattern="[0-9+ -]+" />
                     <div class="invalid-feedback">Please enter your phone number.</div>
                     </div>
                     <div class="mb-3">
-                    <textarea rows="4" class="form-control" placeholder="Your Message..." required></textarea>
+                    <textarea rows="4" class="form-control" placeholder="Your Message..." name="message" required></textarea>
                     <div class="invalid-feedback">Please enter your message.</div>
                     </div>
                     <button type="submit" class="contact_btn">
-                    Get A Quote →
+                     Submit
                     </button>
                 </form>
                 </div>
@@ -122,6 +133,8 @@
         </section>
         <!-- footer section  -->
         <?php include 'footer.php'?>
+
+       
 
 <script>
   // Bootstrap validation
